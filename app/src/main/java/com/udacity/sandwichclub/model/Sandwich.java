@@ -13,8 +13,14 @@ public class Sandwich {
 
     /**
      * No args constructor for use in serialization
+     * @param image
+     * @param mainName
+     * @param placeOfOrigin
+     * @param description
+     * @param alsoKnownAs
+     * @param ingredients
      */
-    public Sandwich() {
+    public Sandwich(String image, String mainName, String placeOfOrigin, String description, List<String> alsoKnownAs, List<String> ingredients) {
     }
 
     public Sandwich(String mainName, List<String> alsoKnownAs, String placeOfOrigin, String description, String image, List<String> ingredients) {
